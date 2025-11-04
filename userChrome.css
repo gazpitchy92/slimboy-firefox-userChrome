@@ -1,4 +1,4 @@
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
      :root {
          --navbar-width: 650px;
          --navbar-width-focused: 1000px;
@@ -36,5 +36,8 @@
 }
 #new-tab-button .toolbarbutton-icon, .tabs-newtab-button .toolbarbutton-icon, #TabsToolbar .toolbarbutton-1[label="New tab"] .toolbarbutton-icon {
      fill: #aed2ff !important;
+}
+.titlebar-spacer {
+     width: 0px !important;
 }
  
