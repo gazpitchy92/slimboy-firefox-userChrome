@@ -46,7 +46,7 @@
         max-width: 12% !important;
     }
     #urlbar-container {
-        margin-left: 0px !important;
+        margin-left: 3px !important;
         padding-left: 0px !important;
     }
     #tabbrowser-tabs {
@@ -131,5 +131,5 @@ toolbarbutton#new-tab-button image.toolbarbutton-icon {
     display: none !important;
 }
 #urlbar-input {
-    padding-left: 10px !important;
+    padding-left: 8px !important;
 }
