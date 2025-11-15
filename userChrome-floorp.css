@@ -27,7 +27,6 @@
           margin-bottom: 1px !important;
      }
      #new-tab-button, .tabs-newtab-button, #TabsToolbar .toolbarbutton-1[label="New tab"] {
-          /* margin-top: -3px !important; */
           color: #aed2ff !important;
      }
      .urlbar-background, #searchbar {
@@ -71,16 +70,25 @@
      border-bottom: 0px black !important;
 }
 .tab-background {
-    margin-bottom: 0px !important;
-    margin-top: 7px !important;
-}
+     margin-bottom: 0px !important;
+     margin-top: 7px !important;
+     }
 .tab-content {
-    padding-top: 3px !important;
+     padding-top: 3px !important;
 }
 #urlbar-container {
-    padding-bottom: 0px !important;
-    padding-top: 0px !important;
+     padding-bottom: 0px !important;
+     padding-top: 0px !important;
 }
 #TabsToolbar {
-  margin-bottom: 2px !important;
+     margin-bottom: 2px !important;
+}
+toolbarbutton#new-tab-button image.toolbarbutton-icon {
+     margin-bottom: -4px !important;
+}
+.tab-text.tab-label {
+     padding-top: 5px !important;
+}
+.tab-icon-stack {
+     padding-top: 5px !important;
 }
