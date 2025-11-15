@@ -14,7 +14,6 @@
     #TabsToolbar {
         -moz-padding-start: var(--navbar-width) !important;
     }
-    /* Only expand when focused AND user is typing */
     #nav-bar:has(#urlbar[focused][usertyping]) {
         margin: -44px calc(100vw - var(--navbar-width-focused)) 0px 0px !important;
     }
