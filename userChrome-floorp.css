@@ -14,6 +14,7 @@
     #TabsToolbar {
         -moz-padding-start: var(--navbar-width) !important;
     }
+    /* Only expand when focused AND user is typing */
     #nav-bar:has(#urlbar[focused][usertyping]) {
         margin: -44px calc(100vw - var(--navbar-width-focused)) 0px 0px !important;
     }
@@ -30,6 +31,9 @@
     .tabs-newtab-button,
     #TabsToolbar .toolbarbutton-1[label="New tab"] {
         color: #aed2ff !important;
+    }
+    .urlbar-background {
+        background: linear-gradient(90deg,rgba(240, 240, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
     }
     .urlbar-background,
     #searchbar {
