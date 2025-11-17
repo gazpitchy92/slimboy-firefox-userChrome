@@ -49,7 +49,7 @@
          border-inline-start: 0px black !important;
     }
 }
- @media (max-width: 1299px) {
+@media (max-width: 1299px) {
      .tabbrowser-tab {
          max-width: 17% !important;
     }
@@ -129,4 +129,7 @@
 }
 #star-button-box {
     display: none !important;
+}
+#reader-mode-button {
+    display: none;
 }
